@@ -23,6 +23,11 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
+# Build Flags
+SOONG_ALLOW_MISSING_DEPENDENCIES := true
+ALLOW_MISSING_DEPENDENCIES := true
+BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
