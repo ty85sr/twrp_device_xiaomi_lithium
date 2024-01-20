@@ -6,7 +6,7 @@
 # You may obtain a copy of the License at
 #
 #      http://www.apache.org/licenses/LICENSE-2.0
-#
+#o
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -31,10 +31,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lithium
-PRODUCT_NAME := twrp_lithium
+PRODUCT_NAME := omni_lithium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI MIX
 PRODUCT_MANUFACTURER := Xiaomi
-
-# Pitch Black Build
-PB_MAINTAINER := ty85sr
