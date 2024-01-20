@@ -102,3 +102,8 @@ TW_MAX_BRIGHTNESS := 4095
 TW_NO_USB_STORAGE := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
+TW_INCLUDE_FASTBOOTD := true
+
+# Pitch Black Build
+MAINTAINER := ty85sr
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
