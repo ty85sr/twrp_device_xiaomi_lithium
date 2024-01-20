@@ -15,4 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_lithium.mk
+    $(LOCAL_DIR)/omni_lithium.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_lithium-eng
